@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Comic Neue', cursive;
+}
+header{
+    background-color: #fcf5f0;
+    padding: 10px;
+}
+
+.container img{
+    height: 60px;
+}
+
+body, input, textarea{
+    font-family: 'Comic Neue', cursive;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav li a{
+    color: #50C95F;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .logo {
+    justify-content:first baseline;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.social-links img{
+    height: 40px;
+}
+
+header .logos {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+section {
+    padding: 24px;
+}
+
+section .container img {
+    height: 500px;
+}
+
+section .container .content{
+    display: block;
+}
+
+.content p,
+.content ul {
+    margin-top: 10px;
+}
+
+.content li{
+    display: inline;
+    align-items: space-between;
+    padding: 10px;
+}
+
+.contact {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #50C95F;
+    color:#fcf5f0;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #89c08f ;
+}
+
+.social-links{
+    align-content: center;
+}
+
+
+.social-links li{
+    display: block;
+    margin-right: 8px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.social-links li a img{
+    height: 60px;
+}
+
+.contact p{
+    padding: 10px;
+}
+
+.contact .container{
+    align-items:flex-start;
+    justify-content:space-around;
+}
+
+.content ul{
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+input:focus, textarea:focus {
+    outline-color: #50C95F;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+footer{
+    background-color: #50C95F;
+    padding: 16px 0;
+}
