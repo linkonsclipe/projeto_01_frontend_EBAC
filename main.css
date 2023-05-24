@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Comic Neue', cursive;
+
 }
 header{
     background-color: #fcf5f0;
     padding: 10px;
+    font-family: 'Mali', cursive;
+    font-weight: 200;
+    color:#50C95F;
 }
 
 .container img{
@@ -14,12 +17,14 @@ header{
 }
 
 body, input, textarea{
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 header nav li {
     display: inline;
     margin-left: 20px;
+    font-family: 'Mali', cursive;
 }
 
 header nav li a{
@@ -56,6 +61,12 @@ header .logos {
     align-items: center;
     justify-content:flex-end;
 }
+
+h2{
+    font-family: 'Mali', cursive;
+    color: #50C95F;
+}
+
 
 section {
     padding: 24px;
@@ -142,11 +153,6 @@ form button:hover {
 
 input:focus, textarea:focus {
     outline-color: #50C95F;
-}
-
-form textarea {
-    resize: none;
-    height: 180px;
 }
 
 footer{
